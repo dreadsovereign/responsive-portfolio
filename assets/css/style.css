@@ -164,34 +164,34 @@ img.social {
 .image1 {
   position: relative;
   display: inline-block;
-  width: 281px:;
+  width: 281px;
 }
 
 .image2 {
   float: right;
   position: relative;
-  width: 281px:;
+  width: 281px;
 }
 
 .image3 {
   position: relative;
   display: inline-block;
   margin-top: 20px;
-  width: 281px:;
+  width: 281px;
 }
 
 .image4 {
   position: relative;
   float: right;
   margin-top: 20px;
-  width: 281px:;
+  width: 281px;
 }
 
 .image5 {
   position: relative;
   display: inline-block;
   margin-top: 20px;
-  width: 281px:;
+  width: 281px;
 }
 
 .image1:hover .overlay {
@@ -222,8 +222,8 @@ img.social {
 
 .portfolio-pics {
   display: block;
-  height: 281px;
-  width: 281px;
+  height: 100%;
+  width: 100%;
 }
 
 .overlay {
@@ -362,7 +362,7 @@ footer {
   }
 
   .header-objects {
-    width: 700px;
+    width: 100%;
   }
 
   .entire-content {
@@ -396,34 +396,36 @@ footer {
   }
 
   ul {
-    width: 700px;
+    width: 100%;
   }
 
   .image1 {
     display: inline-block;
-    width: 281px;
+    width: 308px;
   }
 
   .image2 {
     float: right;
     margin: 0;
+    width: 308px;
   }
   
   .image3 {
     display: inline-block;
     margin-top: 20px;
-    width: 281px;
+    margin-bottom: 20px;
+    width: 308px;
   }
   
   .image4 {
     float: right;
-    margin-top: 20px;
+    margin-top: 30px;
+    width: 308px;
   }
 
   .image5 {
     display: inline-block;
-    margin: auto;
-    width: 281px;
+    width: 308px;
   }
 
 }
@@ -431,6 +433,7 @@ footer {
 @media screen and (max-width: 640px) {
   header {
     padding: 0px;
+    position: static;
   }
 
   .header-objects {
@@ -438,16 +441,16 @@ footer {
   }
 
   .entire-content {
-    width: 593px;
+    width: 100%;
     min-height: calc(100vh - 200px);
   }
 
   .main-content {
-    width: 593px;
+    width: 100%;
   }
 
   .sidebar {
-    width: 593px;
+    width: 100%;
   }
 
   p {
@@ -455,7 +458,12 @@ footer {
   }
 
   .bio-image {
+    width: 100%;
     margin-bottom: 20px;
+  }
+
+  img.profilepic {
+    width: 100%;
   }
 
   .footer {
@@ -482,25 +490,30 @@ footer {
 
   .image1 {
     display: block;
+    width: 100%;
   }
 
   .image2 {
     display: block;
     float: none;
     margin: 30px auto;
+    width: 100%;
   }
 
   .image3 {
     display: block;
+    width: 100%;
   }
 
   .image4 {
     display: block;
     float: none;
+    width: 100%;
   }
 
   .image5 {
     display: block;
+    width: 100%;
   }
 
 }
