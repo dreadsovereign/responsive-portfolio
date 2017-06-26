@@ -524,10 +524,10 @@ footer {
   }
 
   img.social {
-    height: 98px;
+    height: 60px;
     width: auto;
-    margin-right: 6px;
-    margin-left: 6px;
+    margin-right: 4px;
+    margin-left: 4px;
   }
 
 }
