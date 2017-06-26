@@ -428,6 +428,13 @@ footer {
     width: 308px;
   }
 
+  img.social {
+    height: 90px;
+    width: auto;
+    margin-right: 17px;
+    margin-left: 17px;
+  }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -514,6 +521,13 @@ footer {
   .image5 {
     display: block;
     width: 100%;
+  }
+
+  img.social {
+    height: 98px;
+    width: auto;
+    margin-right: 6px;
+    margin-left: 6px;
   }
 
 }
