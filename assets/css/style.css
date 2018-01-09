@@ -90,6 +90,14 @@ a:hover {
   color: #4aaaa5;
 }
 
+.link {
+  color: #FFF;
+}
+
+.link:hover {
+  color: #FFF;
+}
+
 ul {
     text-align: right;
     list-style: none;
