@@ -258,6 +258,10 @@ p.second-para {
   margin-top: 10px;
 }
 
+p.third-para {
+  margin-top: 10px;
+}
+
 footer {
   width: 100%;
   position: absolute;
