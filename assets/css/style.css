@@ -191,55 +191,12 @@ img.social {
   width: 100%;
 }
 
-.image3 {
-  position: relative;
-  margin-top: 20px;
-  width: 100%;
-}
-
-.image4 {
-  position: relative;
-  width: 100%;
-}
-
-.image5 {
-  position: relative;
-  margin-top: 20px;
-  width: 100%;
-}
-
-.image6 {
-  position: relative;
-  margin-top: 20px;
-  width: 100%;
-}
-
 .image1:hover .overlay {
   width: 100%;
   left: 0;
 }
 
 .image2:hover .overlay {
-  width: 100%;
-  left: 0;
-}
-
-.image3:hover .overlay {
-  width: 100%;
-  left: 0;
-}
-
-.image4:hover .overlay {
-  width: 100%;
-  left: 0;
-}
-
-.image5:hover .overlay {
-  width: 100%;
-  left: 0;
-}
-
-.image6:hover .overlay {
   width: 100%;
   left: 0;
 }
