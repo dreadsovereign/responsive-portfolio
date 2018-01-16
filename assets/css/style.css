@@ -170,37 +170,50 @@ img.social {
   width: 38px;
 }
 
+.section1 {
+  width: 50%;
+  display: inline-block;
+}
+
+.section2 {
+  width: 50%;
+  float: right;
+}
+
 .image1 {
   position: relative;
-  display: inline-block;
-  width: 281px;
+  width: 100%;
 }
 
 .image2 {
-  float: right;
   position: relative;
-  width: 281px;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .image3 {
   position: relative;
   display: inline-block;
   margin-top: 20px;
-  width: 281px;
+  width: 100%;
 }
 
 .image4 {
   position: relative;
-  float: right;
-  margin-top: 20px;
-  width: 281px;
+  width: 100%;
 }
 
 .image5 {
   position: relative;
   display: inline-block;
   margin-top: 20px;
-  width: 281px;
+  width: 100%;
+}
+
+.image6 {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .image1:hover .overlay {
@@ -226,7 +239,11 @@ img.social {
 .image5:hover .overlay {
   width: 100%;
   left: 0;
+}
 
+.image6:hover .overlay {
+  width: 100%;
+  left: 0;
 }
 
 .portfolio-pics {
